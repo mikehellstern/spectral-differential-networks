@@ -102,7 +102,7 @@ experimental_dt <- sessions_dt[delay %in% c("10ms", "100ms")]
 #    Probability of edge between stim sites   #
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
-delay_color_map <- c("100ms" = "#DC267F", "10ms" = "#648FFF", "control" = "#FE6100")
+delay_color_map <- c("100ms" = "#D55E00", "10ms" = "#8C510A", "control" = "#009E73")
 
 experimental_stim_edge <- experimental_dt[(node1 == laser_to & node2 == laser_from) | (node1 == laser_from & node2 == laser_to)]
 n_edge_experimental <- nrow(experimental_stim_edge)
