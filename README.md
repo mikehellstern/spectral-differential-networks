@@ -21,4 +21,4 @@ This folder contains all the code to run and analyze the EEG data in Section 5 o
 
 ### uecog_sims
 
-This folder contains all the code to run and analyze the $\mu$ECoG simulations in Section 6 of the paper. Simulation parameters for e.g. session 1 can be found under `./data/session1/params.rds` while the environment used for simulation is available under `./data/session1/sessionInfo.rds`. The `params.rds` file contains information on the stimulation locations as well as the coefficient $A_1, A_{\mathrm{stim}}$ matrices.
+This folder contains all the code to run and analyze the $\mu\mathrm{ECoG}$ simulations in Section 6 of the paper. Simulation parameters for e.g. session 1 can be found under `./data/session1/params.rds` while the environment used for simulation is available under `./data/session1/sessionInfo.rds`. The `params.rds` file contains information on the stimulation locations as well as the coefficient $A_1, A_{\mathrm{stim}}$ matrices.
